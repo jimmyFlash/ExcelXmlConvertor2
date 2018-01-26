@@ -1,0 +1,467 @@
+﻿<resources>
+    <string name="app_name">خدمات ITS البنكية</string>
+
+    <string name="about_owner_year">ITS © 2015</string>
+    <string name="about_version">1.0</string>
+    <string name="about_trademarks_copyright">
+المحتوى في هذا البرنامج يخضع لقوانين حقوق الملكية و لا يمكن لأي جزء من هذا المحتوى أن يتم تغييره أو إعادة صياغته أو ارساله بأي شكل أو طريقة أو نسخه أو توزيعه أو عمل نسخ مشتقة منه أو استخدامه لأي أغراض تجارية أو عامة دون الحصول على موافقة مكتوبة مسبقا
+    </string>
+    <string name="about_label_version">الإصدار</string>
+    <string name="about_label_trademarks_copyright">العلامات التجارية و حقوق الملكية</string>
+
+    <string name="openDrawer">فتح القائمه الجانبيه</string>
+    <string name="closeDrawer">غلق القائمه الجانبيه</string>
+    <string name="msg_language_restart_app">يجب إعادة تشغيل البرنامج لفعيل التغييرات</string>
+
+    <string name="button_restart">إعادة تشغيل</string>
+    <string name="button_ok">نعم</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="button_log_out">تسجيل خروج</string>
+    <string name="button_call">إتصال</string>
+    <string name="button_sign_in">تسجيل دخول</string>
+    <string name="button_forgot_password">نسيت كلمة المرور؟</string>
+    <string name="button_currency_converter">العملات</string>
+    <string name="button_gis">المواقع</string>
+    <string name="button_finance_calculator">التمويل</string>
+    <string name="button_accounts">حسابات</string>
+    <string name="button_transfers">تحويلات</string>
+    <string name="button_settings">إعدادات</string>
+    <string name="button_share">مشاركة</string>
+
+    <string name="hint_username">اسم المستخدم</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="hint_rim">رقم العميل</string>
+
+    <string name="msg_please_wait">يرجى الإنتظار</string>
+    <string name="msg_server_not_available">الخادم غير متاح الأن, يرجى المحاوله في وقت لاحق</string>
+    <string name="msg_getting_data">...الحصول على البيانات</string>
+    <string name="msg_check_connection">التحقق من الإتصال</string>
+    <string name="msg_logout_confirmation">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="msg_loading">تحميل...</string>
+    <string name="msg_checking_connection">...جاري التحقق من الإتصال</string>
+    <string name="error_loading_data">AR - Error while loading ...please try again later</string>
+    <string name="msg_inavlide_qr_image">عفوًا! صورة QR غير صالحة </string>
+    <string name="title_no_bill_found">AR - No saved bills found</string>
+    <string name="title_no_accounts">AR -No accounts found</string>
+    <string name="msg_no_internet">لا يوجد اتصال بالانترنت</string>
+
+    <string name="label_welcome">مرحبا</string>
+    <string name="label_last_login">آخر دخول:</string>
+
+    <string name="title_activity_main">النشاطات الرئيسيه</string>
+    <string name="title_activity_login">دخول</string>
+    <string name="title_activity_accounts">الحسابات</string>
+    <string name="title_activity_account_details">تفاصيل</string>
+    <string name="title_activity_transfer">تحويل</string>
+    <string name="title_activity_transfer_between_accounts">بين الحسابات</string>
+    <string name="title_activity_transfer_internal">داخلي</string>
+    <string name="title_activity_transfer_confirmation">تأكيد</string>
+    <string name="hint_demonation">فئات</string>
+    <string name="msg_select_product">Please Select The Product</string>
+    <string name="msg_select_provider">Please Select The provider</string>
+    <array name="pay_bill_items">
+        <item>اضافة فاتورة</item>
+        <item>الفواتير المسجله</item>
+    </array>
+    <string name="nd_home">الصفحة الرئيسية</string>
+    <string name="nd_accounts">حسابات</string>
+    <string name="nd_transfer">تحويلات</string>
+    <string name="nd_contact_center">مركز التواصل</string>
+    <string name="nd_currency">العملات</string>
+    <string name="nd_calculator">التمويل</string>
+    <string name="nd_locator">المواقع</string>
+    <string name="nd_tutorial">الشرح التوضيحي</string>
+    <string name="nd_share">مشاركة</string>
+    <string name="nd_settings">إعدادات</string>
+    <string name="nd_about">عن التطبيق</string>
+    <string name="nd_pay_bill">دفع فواتير</string>
+    <string name="nd_standing_order">أمر دائم</string>
+    <string name="nd_beneficiary">المستفدين</string>
+    <string name="title_activity_pay_bill">دفع الفواتير</string>
+
+    <string name="label_loanandfinanceaccounts">التمويل</string>
+    <string name="label_termdepositaccounts">الودائع</string>
+    <string name="label_currentaccounts">الجاري</string>
+    <string name="label_savingaccounts">التوفير</string>
+    <string name="label_cardaccounts">البطاقات</string>
+    <string name="label_offbalanceaccounts">خارج الرصيد</string>
+
+    <string name="menu_change_language">تغيير اللغة</string>
+    <string name="msg_share_using">مشاركه عن طريق...</string>
+
+    <array name="account_details_tabs_items">
+        <item>تفاصيل الحساب</item>
+        <item>تاريخ الحساب</item>
+        <item>كشف حساب</item>
+    </array>
+    <string name="account_details_accountType">نوع الحساب</string>
+    <string name="account_details_currentBalance">الرصيد الحالي</string>
+    <string name="account_details_holdAmount">الرصيد المحتجز</string>
+    <string name="account_details_status">الحالة</string>
+    <string name="account_details_availableBalanceInPreferredCurrency">الرصيد المتوفر بالعمله المفضله</string>
+    <string name="account_details_dealAmount">مبلغ الصفقه</string>
+    <string name="account_details_outstandingAmount">المبلغ المستحق</string>
+    <string name="account_details_totalPaid">مجموع المبالغ المدفوعة</string>
+    <string name="account_details_dueDate">تاريخ أخر قسط لم يدفع</string>
+    <string name="account_details_maturityDate">تاريخ إنتهاء الوديعه</string>
+    <string name="account_details_availableBalanceInPreferedCurrency">الرصيد المتوفر بالعمله المفضله</string>
+    <string name="account_details_description">وصف</string>
+    <string name="account_details_cardType">نوع البطاقه</string>
+    <string name="account_details_outstandingBalance">الرصيد المستحق</string>
+    <string name="account_details_cardLimit">حد البطاقه</string>
+    <string name="account_details_minPayDue">اقل مبلغ مستحق</string>
+    <string name="account_details_lastPaymentDate">تاريخ أخر عملية دفع</string>
+    <string name="account_details_lastPaidAmount">مبلغ أخر عملية دفع</string>
+    <string name="account_details_cardStatus">حالة بطاقة</string>
+    <string name="account_details_term">نوع الوديعه</string>
+    <string name="account_details_interestRate">سعر الفائدة</string>
+    <string name="account_details_preferredCurrency">العملة المفضلة</string>
+    <string name="account_details_availableBalance">الرصيد المتاح</string>
+    <string name="account_details_dueBalance">الرصيد المستحق</string>
+    <string name="account_details_lastPaymentAmount">مبلغ السداد</string>
+    <string name="account_details_overDueAmount">المبلغ المتأخر</string>
+
+    <string name="button_from">من</string>
+    <string name="button_to">إلى</string>
+    <string name="button_transfer_between_accounts">بين الحسابات</string>
+    <string name="button_transfer_internal">داخلي</string>
+    <string name="label_daily_limit">حد اليوم</string>
+    <string name="label_transaction_limit">حد العمليه</string>
+    <string name="label_transaction_details">تفاصيل العمليه</string>
+    <string name="hint_amount">المبلغ</string>
+    <string name="hint_narration">وصف</string>
+    <string name="button_transfer">تحويل</string>
+    <string name="button_continue">استمرار</string>
+    <string name="label_transaction_fees">رسوم العمليه</string>
+    <string name="label_total_amount">إجمالي المبلغ</string>
+    <string name="button_confirm">تأكيد</string>
+    <string name="label_select_account">[إختر حساب]</string>
+    <string name="label_select_cycle">[إختر الفترة الزمنية]</string>
+    <string name="msg_login_canceled">تم إلغاء عملية الدخول</string>
+    <string name="msg_transfer_completed">تم التحويل بنجاح\nهل ترغب بعمل تحويل أخر؟</string>
+    <string name="msg_so_completed">تم تنفيذ الامر الدائم بنجاح\n هل ترغب يعمل امر دائم جديد؟</string>
+    <string name="label_last_n_transactions">أخر %1$s تحويلات</string>
+    <string name="label_from_to_transactions">من %1$s إلى %2$s</string>
+    <string name="btn_share_manual">يدوى</string>
+    <string name="btn_share_via_qr">عن طريق QR</string>
+    <string name="label_no_more_details">لا مزيد من التفاصيل</string>
+    <string name="title_activity_contact_center">مركز التواصل</string>
+
+    <string name="label_phone_numbers">أرقام الهواتف</string>
+    <string name="label_email_address">عنوان البريد الإلكتروني</string>
+    <string name="label_website">الموقع</string>
+    <string name="label_rate">تقييم</string>
+    <string name="label_share">مشاركه</string>
+    <string name="msg_url_not_available">غير متاح حاليا</string>
+    <string name="title_activity_settings">إعدادات</string>
+    <string name="title_activity_gis">المواقع</string>
+    <string name="button_atms">ماكينة صراف آلي</string>
+    <string name="button_all">الكل</string>
+    <string name="button_branches">الفروع</string>
+    <string name="menu_map_list">خريطة / قائمة</string>
+    <string name="msg_gis_not_available">غير متاح حاليا</string>
+
+    <string name="changeLanguageKey">تغير اللغه</string>
+    <string name="changePasswordKey">تغيير كلمة المرور</string>
+    <string name="fingerPrintKey">تفعيل البصمه</string>
+    <string name="registeredDevicesKey">الأجهزة المسجلة</string>
+    <string name="beaconKey">الرسائل الموجهة</string>
+
+    <array name="settings_items">
+        <item>@string/changeLanguageKey</item>
+        <item>@string/changePasswordKey</item>
+        <item>@string/fingerPrintKey</item>
+        <item>@string/registeredDevicesKey</item>
+        <item>@string/beaconKey</item>
+    </array>
+
+    <!--<array name="settings_items_no_finger">-->
+        <!--<item>تغير اللغه</item>-->
+        <!--<item>تغيير كلمة المرور</item>-->
+        <!--<item>الأجهزة المسجلة</item>-->
+    <!--</array>-->
+
+    <string name="gis_address">العنوان</string>
+    <string name="gis_hasATM">توفر ماكينه صراف آلي</string>
+    <string name="gis_phone">الهاتف</string>
+    <string name="gis_latitude">خط الطول</string>
+    <string name="gis_name">الاسم</string>
+    <string name="gis_id">رقم</string>
+    <string name="gis_workingHours">مواعيد العمل</string>
+    <string name="gis_fax">الفاكس</string>
+    <string name="gis_longitude">خط العرض</string>
+    <string name="gis_yes">نعم</string>
+    <string name="gis_no">لا</string>
+    <string name="title_activity_currency_converter">عملات</string>
+    <string name="title_activity_finance_calculator">تمويل</string>
+    <string name="msg_enter_beneficiary_added_sucessfully">تم اضافة مستفيد جديد</string>
+    <array name="currency_converter_tabs_items">
+        <item>تحويل</item>
+        <item>سعر العمله</item>
+    </array>
+    <string name="label_select_currency">[اختر عملة]</string>
+    <array name="finance_calculator_tabs_items">
+        <item>تمويل</item>
+        <item>طلبات</item>
+    </array>
+    <string name="label_select_Service">[اختر خدمة]</string>
+    <string name="label_down_payment">دفعة أولى</string>
+    <string name="label_net_finance">صافي التمويل</string>
+    <string name="label_select_no_of_months">[اختر عدد الشهور]</string>
+    <string name="label_profit_rate">معدل الربح</string>
+    <string name="label_monthly_payment">الدفعة الشهرية</string>
+    <string name="label_profit">الربح</string>
+    <string name="label_total_rapaid">إجمالي المسدد</string>
+    <string name="button_calculate">احسب</string>
+    <string name="button_request">طلب</string>
+    <string name="button_convert">تحويل</string>
+    <string name="label_buy_cash">شراء نقدا</string>
+    <string name="label_sell_cash">بيع نقدا</string>
+    <string name="label_buy_draft">شراء حواله</string>
+    <string name="label_sell_draft">بيع حواله</string>
+    <string name="title_activity_finance_calculator_details">تفاصيل حساب التمويل</string>
+    <string name="label_service">خدمة</string>
+    <string name="label_no_of_months">عدد الشهور</string>
+    <string name="msg_need_to_login_to_request">تحتاج إلى تسجيل الدخول لتنفيذ هذا الإجراء</string>
+    <string name="msg_need_to_login_to_view">تحتاج إلى تسجيل الدخول لمشاهدة هذه المعلومات</string>
+    <string name="msg_request_sent">تم إرسال الطلب</string>
+    <string name="button_update">تحديث</string>
+    <string name="msg_delete_confirmation">هل أنت متأكد أنك تريد حذف هذا البند؟</string>
+    <string name="msg_delete_own_device_confirmation">هل أنت متأكد أنك تريد حذف الجهاز الحالي الخاص بك؟ (هذا الإجراء سيقوم بتسجيل خروجك)</string>
+    <string name="msg_item_deleted">تم حذف البند</string>
+    <string name="msg_item_updates">تم تحديث البند</string>
+    <string name="button_register">تسجيل</string>
+    <string name="label_device_name">إسم الجهاز</string>
+    <string name="label_device_id">معرف الجهاز</string>
+    <string name="label_device_Model">نموذج الجهاز</string>
+    <string name="label_os_and_version">نظام التشغيل والإصدار</string>
+    <string name="msg_complete_all_data">جميع الحقول إلزامية</string>
+    <string name="title_activity_devices_list">الأجهزة المسجلة</string>
+    <string name="title_activity_beneficiary_list">المستفيدين</string>
+    <string name="title_activity_bill_list">الفواتير</string>
+    <string name="title_activity_add_bill">اضافة فاتوره</string>
+
+    <string name="label_account">الحساب</string>
+    <string name="label_select_beneficiary">[اختر المستفيد]</string>
+    <string name="label_beneficiary_type">نوع المستفيد</string>
+    <string name="label_narration">وصف</string>
+    <string name="label_month">شهر</string>
+
+    <string name="menu_label_right">1</string>
+
+    <string name="msg_device_not_registered">هذا الجهاز غير مسجل, هل تريد تسجيله الأن؟</string>
+    <string name="hint_user_id">هوية المستخدم</string>
+    <string name="msg_from_date_exceed_to_date">نطاق التاريخ غير صحيح</string>
+
+    <string name="msg_force_update">هناك إصدار جديد، هل تريد تحديث الآن؟</string>
+    <string name="button_exit">خروج</string>
+
+    <string name="label_iban">رقم IBAN</string>
+
+    <string name="msg_share_account">
+        رقم الحساب: %1$s \nاسم العميل: %2$s \nاسم البنك: %3$s \nالفرع: %4$s \nسويفت: %5$s \nآيبان: %6$s
+    </string>
+
+    <string name="msg_share_account_history">
+        الحساب: %1$s \nالتاريخ: %2$s \nالقيمة: %3$s \nالنوع: %4$s \nالمصدر: %5$s \nالوصف: %6$s
+    </string>
+
+
+      <string name="msg_share_body">
+        From googleplay store:\n%1$s \n\n\nFrom AppStore:\n%2$s
+    </string>
+<string name="msg_share_subject">
+        Download ITS Mobile banking application
+    </string>
+
+    <string name="error_share">Error while sharing application...please try again </string>
+
+
+    <string name="msg_please_enter">
+        من فضلك أدخل %1$s
+    </string>
+
+    <string name="msg_can_not_select_same_value">
+        (%1$s) و (%2$s) لا يمكن أن يكونوا بنفس القيمة
+    </string>
+
+    <string name="msg_can_not_more_than_value">
+        (%1$s) لا يمكن أن يكون أكثر من (%2$s)
+    </string>
+    <string name="label_account_number">رقم الحساب</string>
+    <string name="label_account_holder">صاحب الحساب</string>
+    <string name="button_add">إضافه</string>
+    <string name="label_accounts">الحسابات</string>
+    <string name="msg_no_beneficiary_with_account_no">لم يتم العثور على أن رقم حساب المستفيد</string>
+    <string name="button_success">تم</string>
+    <string name="button_retry">إعادة المحاولة</string>
+    <string name="label_add_beneficiary">إضافة مستفيد</string>
+    <string name="label_register_device">تسجيل هاتف</string>
+    <string name="label_skip">تخطى</string>
+    <string name="title_activity_tutorial_fade_animation">الشرح التوضيحي</string>
+
+    <string name="label_tutorial_1">تحكم في  <b>حساباتك</b>\nبمنتهى <b>السهولة</b></string>
+    <string name="label_tutorial_2"> ابحث عن<b>الفروع</b> و <b>ماكينات الصراف الآلي</b> بسهولة <b>و يسر</b></string>
+    <string name="label_tutorial_3">تحويل الأموال \nبمنتهى <b>السرعة</b></string>
+    <string name="label_tutorial_4">تحويل العملات \n<b>أكثر سهولة</b></string>
+    <string name="label_tutorial_5">اطلب <b>تحويلا بنكيا</b>\n<b>في أي وقت</b></string>
+
+    <string name="title_activity_change_password">تغيير كلمة المرور</string>
+    <string name="label_login_name">اسم الدخول</string>
+    <string name="label_atm_debit_card_number">رقم كارت بطاقة الائتمان</string>
+    <string name="label_atm_debit_card_pin_number">الرقم السري لكارت بطاقة الائتمان</string>
+    <string name="button_proceed">متابعة</string>
+    <string name="label_enter_answer_here">أدخل الإجابة</string>
+    <string name="button_retrieve_password">استعادة كلمة المرور</string>
+    <string name="label_done">إنهاء</string>
+    <string name="title_activity_forget_password">نسيت كلمة المرور</string>
+    <string name="label_login_password_change">تغيير كلمة مرور الدخول</string>
+    <string name="label_transaction_password_change">تغيير كلمة المرور</string>
+    <string name="label_current_password">كلمة المرور الحالية</string>
+    <string name="label_new_password">كلمة المرور الجديدة</string>
+    <string name="label_retype_new_password">إعادة كتابة كلمة السر</string>
+    <string name="button_change_password">تغيير كلمة السر</string>
+    <string name="label_social_networks">شبكات التواصل الاجتماعي</string>
+    <string name="title_activity_about">عن التطبيق</string>
+    <string name="msg_must_be_positive">%1$s يجب أن يكون أكبر من 0</string>
+    <string name="msg_values_must_be_the_same">يجب تطابق الحقلين</string>
+    <string name="msg_password_changed_successfully">تم تغيير كلمة المرور بنجاح</string>
+    <string name="msg_force_change_password">يجب تغيير كلمة المرور</string>
+    <string name="button_yes">نعم</string>
+    <string name="button_no">لا</string>
+    <string name="label_enter_OTP">أدخل رمز التحقق</string>
+    <string name="label_credit_amount">المبلغ المودع</string>
+    <string name="label_debit_amount">المبلغ المسحوب</string>
+    <string name="title_activity_beneficiary_details">تفاصيل المستفيدين</string>
+    <string name="standingOrders">أمر دائم</string>
+    <string name="label_add_account_to_beneficiary">إضافة حساب إلى المستفيد</string>
+    <string name="msg_enter_beneficiary_password">أدخل كلمة المرور</string>
+    <string name="msg_delete_last_account_in_beneficiary">لا يمكن حذف آخر حساب \nهل ترغب في حذف المستفيد؟ </string>
+    <string name="msg_warning_delete_last_beneficiary">تحذير: سيتم حذف المستفيد</string>
+
+    <string name="msg_must_be_grater_than">%1$s يجب أن تكون قيمة %2$s</string>
+    <string name="msg_must_be_less_than">يجب أن تكون قيمة %1$s أكبر من %2$s</string>
+    <string name="button_sort">ترتيب</string>
+    <string name="permission_rationale_read_phone_state">مطلوب تصريح للوصول لحالة الهاتف لتوفير بيانات حول الهاتف..</string>
+
+    <array name="msg_regex">
+        <item>Ensure that the password contains at least 1 capital letter [A-Z]</item>
+        <item>Ensure that the password contains at least 1 of the following special characters
+        </item>
+        <item>Ensure that the password contains at least 1 number(s)</item>
+        <item>Ensure that the password contains at least 8 characters and no more than 30
+            characters
+        </item>
+        <item>Ensure that the password does not contain the same character more than once</item>
+    </array>
+    <string name="msg_transfer_add_benefeciary_options">لا يوجد مستفيدين مسجلين \n هل تريد اضافة مستفيد جديد؟</string>
+    <string name="msg_select_account_from">يرجى تحديد قيمة في "الحساب من". </string>
+    <string name="msg_select_account_to">برجاء تحديد "إلى الحساب"</string>
+    <string name="msg_from_value">برجاء تحديد قيمة "من"</string>
+    <string name="msg_to_value">برجاء تحديد قيمة "إلى"</string>
+    <string name="msg_no_data">لا توجد بيانات متاحة</string>
+    <string name="msg_call_facility">آلية الاتصال عير متاحة!!!</string>
+    <string name="msg_added_successfully">تم إضافة البند بنجاح</string>
+
+    <string name="label_between_own_accounts">نفس الحسابات</string>
+    <string name="label_external_transfer">تحويل خارجى</string>
+    <string name="label_account_transfer">تحويل بالحساب</string>
+    <string name="label_credit_payment">دفع ببطاقة الأئتمان</string>
+    <string name="label_same_bank">نفس البنك</string>
+    <string name="label_local_bank">بنك محلى</string>
+    <string name="label_international_bank">بنك دولى</string>
+
+    <string name="label_purpose">الغرض</string>
+
+    <string name="label_paybill">دفع الفواتير</string>
+    <string name="label_bill_name">اسم الفاتوره</string>
+    <string name="label_beneficiaries">المستفيدين</string>
+    <string name="label_contact_center">مركز التواصل</string>
+
+    <string name="label_pay_to">ادفع الى</string>
+    <string name="label_select_vendor">[اختر البائع]</string>
+    <string name="label_paid_product">قيمة الفاتوره</string>
+    <string name="label_select_product">[اختر المنتج]</string>
+    <string name="label_pay_from">ادفع من</string>
+    <string name="label_your_total_bill_amount">اجمالى قيمة الفاتوره</string>
+    <string name="label_get_bill_amount">قيمة الفاتوره</string>
+    <string name="label_pay">دفع الفاتوره</string>
+    <string name="label_select_amount">[اختر  القيمه]</string>
+
+    <string name="label_bank_name">اسم البنك</string>
+    <string name="label_select_branch">اختر فرع</string>
+    <string name="label_select_bank">اختر بنك</string>
+    <string name="label_select_country">اختر البلد</string>
+    <string name="label_branch">الفرع</string>
+    <string name="label_country">البلد</string>
+    <string name="label_currency">العمله</string>
+
+    <string name="label_close">غلق</string>
+
+    <string name="label_add_new_beneficiary">اضافة مستفيد جديد</string>
+    <string name="label_add_new_beneficiary_account">حساب جديد لمستفيد</string>
+    <string name="amount_paid">القيمه المدفوعه</string>
+    <string name="label_total_debit_amount">القيمه الكليه</string>
+    <string name="msg_bill_completed">تم دفع قيمة الفاتوره\nهل تريد حفظ الفاتوره؟</string>
+    <string name="button_save">حفظ</string>
+    <string name="button_skip">خروج</string>
+    <string name="label_search_here">بحث </string>
+    <string name="msg_bill_saved_success">تم حفظ الفاتوره</string>
+    <string name="login_with_finger">تسجيل الدخول بالبصمه</string>
+
+    <string name="msg_transfer_no_accounts_found">لم يتم  العثور على  أية حسابات!</string>
+    <string name="msg_transfer_no_credit_accounts_found">لم يتم العثور على أية حسابات ائتمان!</string>
+    <string name="msg_transfer_no_accounts_under_beneficiary_same">لا توجد أية حسابات تابعة لحسابات هذا المستفيد في المصرف نفسه/n هل ترغب في إضافة حساب؟ </string>
+    <string name="msg_transfer_no_accounts_under_beneficiary_local">لا توجد أية حسابات تابعة لحسابات هذا المستفيد في المصرف المحلي/n هل ترغب في إضافة حساب؟ </string>
+    <string name="msg_transfer_no_accounts_under_beneficiary_international">لا توجد أية حسابات تابعة لحسابات هذا المستفيد في المصرف الدولي/n هل ترغب في إضافة حساب؟ </string>
+
+    <string name="msg_rate">إذا كنت تتمتع باستخدام هذا التطبيق،هل لديك مانع لتقييم ذلك؟ قد لا يستغرق ذلك أكثر من دقيقة واحدة. شكرا لدعمك</string>
+    <string name="lbl_rate_now">قيم الان &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="lbl_rate_later">قيم لاحقا</string>
+    <string name="lbl_thanks">لا .. شكرا</string>
+
+    <string name="all_permissions_denied_feedback">هذه الصلاحيات مطلوبة للتطبيق</string>
+    <string name="permission_rationale_title">هذه الصلاحية مطلوبة</string>
+    <string name="permission_rationale_message">هذه الصلاحية مطلوبة لكى يعمل التطبيق الرجاء تفعيلها!</string>
+    <string name="permission_granted_feedback">تم التفعيل</string>
+    <string name="permission_permanently_denied_feedback">تم التفعيل موقتاً</string>
+    <string name="permission_denied_feedback">تم الرفض</string>
+
+    <string name="label_select_account_type">تحديد نوع</string>
+    <string name="error_bill_saved_success">AR - Error while saving Bill \nPlease try again </string>
+    <string name="msg_invalid_value">غير صحيح %1$s</string>
+    <string name="title_activity_beneficiary_accounts_in_banks">AR - BeneficiaryAccountsInBanks</string>
+    <string name="error_register_finger">AR - There is no registered fingerprint\nDo you want to add new one?</string>
+    <string name="error_no_finger_installation">AR - Finger print feature is not enabled , please login and enable it from the settings</string>
+    <string name="error_finger_time_out">AR - Finger time out</string>
+    <string name="error_finger_cancelled">AR - Finger request cancelled</string>
+    <string name="error_finger_not_supported">AR - Fingerprint Service is supported in the device.</string>
+    <string name="lbl_enter_fingerprint">يرجى إضافة بصمة إصبعك ليتم تسجيل الدخول </string>
+    <string name="lbl_token">يرجى إدخال قيمة جهاز توثيق الدخول. </string>
+    <string name="lbl_otp">يرجى إدخال كلمة المرور لمرة واحدة</string>
+    <string name="lbl_ed_token">AR- Token value</string>
+    <string name="lbl_login_password">يرجى إدخال كلمة مرور الدخول. </string>
+    <string name="lbl_ed_otp">كلمة المرور لمرة واحدة</string>
+    <string name="msg_enter_ip_address">من فضلك ادخل عنوان IP</string>
+    <string name="start">ابدأ</string>
+    <string name="standingOrderDetailsTitle">تفاصيل الأمر الدائم</string>
+    <string name="addstandingOrder">أمر دائم جديد</string>
+    <string name="button_recurring">خيارات التكرار</string>
+    <string name="due">مستحق</string>
+    <string name="executingFreq">مرات تكرار التنفيذ</string>
+    <string name="effectiveFrom">تاريخ بداية السريان</string>
+    <string name="lbl_ed_login_password">كلمة المرور</string>
+    <string name="numOfExecution">عدد مرات التنفيذ</string>
+    <string name="title_activity_standing_order_confirmation">تاكيد الأمر الدائم</string>
+    <string name="lbl_own_accounts">الحسابات الشخصيه</string>
+    <string name="recuringOptions">خيارات التكرار</string>
+
+    <string name="messageBroadcast">الرسائل الموجهة</string>
+    <string name="messageBroadcastMessage">تحتاج الرسائل الموجهة الى تفعيل خاصية تحديد المواقع.
+لن يتم استخدام موقعك الحالي دون موافقتك بأي حال</string>
+    <string name="messageBroadcastEnable">قبول</string>
+    <string name="messageBroadcastDismiss">تخطي</string>
+
+
+
+</resources>

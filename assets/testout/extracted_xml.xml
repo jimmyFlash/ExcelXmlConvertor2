@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Pesticides>
+  <Header>
+    <Creation_Date>23/10/2016 19:00</Creation_Date>
+  </Header>
+  <Substances>
+    <Substance_name>1,1-dichloro-2,2-bis(4-ethylphenyl)ethane (F)</Substance_name>
+    <Substance_entry_force>01/09/2008</Substance_entry_force>
+    <Substance_directive>Reg. (EC) No 149/2008</Substance_directive>
+    <Product>
+      <Product_name>FRUITS, FRESH or FROZEN; TREE NUTS</Product_name>
+      <Product_code>0100000</Product_code>
+      <MRL>0.01*</MRL>
+      <Application_Date>01/09/2008</Application_Date>
+    </Product>
+    <Product>
+      <Product_name>Citrus fruits</Product_name>
+      <Product_code>0110000</Product_code>
+      <MRL>0.01*</MRL>
+      <Application_Date>01/09/2008</Application_Date>
+    </Product>
+    <Product>
+      <Product_name>Grapefruits (Natsudaidais, Shaddocks/pomelos, Sweeties/oroblancos, Tangelolos, Tangelos (except minneolas)/Ugli®, Other hybrids of Citrus paradisi, not elsewhere mentioned,)</Product_name>
+      <Product_code>0110010</Product_code>
+      <MRL>0.01*</MRL>
+      <Application_Date>01/09/2008</Application_Date>
+    </Product>
+    <Product>
+      <Product_name>Oranges (Bergamots, Bitter oranges/sour oranges, Blood oranges, Cara caras, Chinottos, Trifoliate oranges, Other hybrids of Citrus sinensis, not elsewhere mentioned,)</Product_name>
+      <Product_code>0110020</Product_code>
+      <MRL>0.01*</MRL>
+      <Application_Date>01/09/2008</Application_Date>
+    </Product>
+  </Substances>
+  <Substances>
+    <Substance_name>Butylate</Substance_name>
+    <Substance_entry_force>26/04/2013</Substance_entry_force>
+    <Substance_directive>Reg. (EU) No 899/2012</Substance_directive>
+    <Product>
+      <Product_name>Chicken</Product_name>
+      <Product_code>1030010</Product_code>
+      <MRL>0.01*</MRL>
+      <Application_Date>26/04/2013</Application_Date>
+    </Product>
+    <Product>
+      <Product_name>Duck</Product_name>
+      <Product_code>1030020</Product_code>
+      <MRL>0.01*</MRL>
+      <Application_Date>26/04/2013</Application_Date>
+    </Product>
+  </Substances>
+</Pesticides>

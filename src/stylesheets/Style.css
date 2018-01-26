@@ -1,0 +1,70 @@
+.root{
+
+    -fx-background-color: darkslategrey;
+}
+
+Button{
+    -fx-border-color: lightcyan;
+    -fx-background-color: darkslategrey;
+    -fx-text-fill: aqua;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+}
+
+Button:hover{
+    -fx-border-color: transparent;
+    -fx-background-color: lightcyan;
+    -fx-text-fill: darkslategrey;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 1px;
+    -fx-font-weight: bold;
+}
+
+Button:pressed{
+    -fx-border-color: aquamarine;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 1px;
+    -fx-font-weight: bold;
+}
+
+RadioButton{
+    -fx-padding: 8px;
+    -fx-border-color: transparent;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+}
+
+RadioButton:selected{
+    -fx-padding: 8px;
+    -fx-border-color: aqua;
+    -fx-border-radius: 10px;
+    -fx-text-fill: aqua;
+}
+
+TextField{
+
+    -fx-border-color: white;
+    -fx-border-radius: 5px;
+    -fx-text-fill: aqua;
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 1px;
+
+
+}
+
+Label#outputtv{
+    -fx-border-color: white;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+    -fx-background-color:seagreen;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 1px;
+    -fx-font-weight: bold;
+
+}

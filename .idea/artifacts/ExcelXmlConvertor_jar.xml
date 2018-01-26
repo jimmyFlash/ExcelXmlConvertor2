@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExcelXmlConvertor:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="ExcelXmlConvertor.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Desktop/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="ExcelXmlConvertor" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/xmlbeans-2.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/org.apache.commons.io.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/commons-collections4-4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/commons-collections4-4.1/commons-collections4-4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/commons-collections4-4.1/commons-collections4-4.1-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/poi-3.15/poi-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/poi-3.15/poi-ooxml-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/poi-3.15/poi-examples-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/poi-3.15/poi-excelant-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/poi-3.15/poi-scratchpad-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/software/development/jarlibs/poi-3.15/poi-ooxml-schemas-3.15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

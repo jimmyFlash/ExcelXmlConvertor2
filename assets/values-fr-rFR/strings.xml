@@ -1,0 +1,435 @@
+﻿<resources>
+    <string name="app_name">ITS - Services bancaires mobiles</string>
+
+    <string name="about_owner_year">ITS © 2015</string>
+    <string name="about_version">1.0</string>
+    <string name="about_trademarks_copyright">Les informations présents sur ce site sont protégés par le droit d\'auteur et aucune partie de ces informations ne peut être modifiée, reproduite, stockée dans un système de recherche, transmise (sous en aucune forme ou par n\'importe quel moyen), copié, distribué, utilisé pour créer des travaux dérivées ou utilisées de n\'importe quelle autre manière à des fins commerciales ou publiques sans notre consentement écrit au préalable.</string>
+    <string name="about_label_version">Version</string>
+
+    <string name="openDrawer">Ouvrir le menu de coté</string>
+    <string name="closeDrawer">Fermer le menu de coté</string>
+    <string name="msg_language_restart_app"></string>
+
+    <string name="button_restart"></string>
+    <string name="button_ok">D\'accord</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_log_out">Se déconnecter</string>
+    <string name="button_call">Appel</string>
+    <string name="button_sign_in">Se connecter</string>
+    <string name="button_forgot_password">Mot de passe oublé</string>
+    <string name="button_currency_converter">Devise</string>
+    <string name="button_gis">Localisateur</string>
+    <string name="button_finance_calculator">Financement</string>
+    <string name="button_accounts">Comptes</string>
+    <string name="button_transfers">Transferts</string>
+    <string name="button_settings">Paramètres</string>
+
+    <string name="hint_username">Nom d\'utilisateur</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_rim">RIM</string>
+
+    <string name="msg_please_wait">Veuillez patienter...</string>
+    <string name="msg_server_not_available">Le serveur n\'est pas disponible maintenant, veuillez réessayer plus tard</string>
+    <string name="msg_getting_data">Obtention des données ...</string>
+    <string name="msg_check_connection">Vérifier la connexion</string>
+    <string name="msg_logout_confirmation">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="msg_loading">Chargement...</string>
+    <string name="msg_checking_connection">Vérification de la connexion ...</string>
+    <string name="error_loading_data">Erreur lors du chargement ... Veuillez réessayer plus tard</string>
+    <string name="msg_inavlide_qr_image">Désolé! image de QR invalide</string>
+    <string name="title_no_bill_found"></string>
+    <string name="title_no_accounts"></string>
+    <string name="msg_no_internet">Pas de connexion Internet</string>
+
+    <string name="label_welcome">Bienvenue</string>
+    <string name="label_last_login">Dernière connexion:</string>
+
+    <string name="title_activity_main">Activité principale</string>
+    <string name="title_activity_login">S\'identifier</string>
+    <string name="title_activity_accounts">Comptes</string>
+    <string name="title_activity_account_details">Détails</string>
+    <string name="title_activity_transfer">Transfert</string>
+    <string name="title_activity_transfer_between_accounts">Transfert interne</string>
+    <string name="title_activity_transfer_internal">Entre comptes personnels</string>
+    <string name="title_activity_transfer_confirmation">Confirmation</string>
+    <string name="hint_demonation"></string>
+    <string name="msg_select_product"></string>
+    <string name="msg_select_provider"></string>
+    <array name="pay_bill_items">
+        <item></item>
+        <item></item>
+    </array>
+    <string name="nd_home">Accueil</string>
+    <string name="nd_accounts">Comptes</string>
+    <string name="nd_transfer">Transferts</string>
+    <string name="nd_contact_center">Centre d\'appels</string>
+    <string name="nd_currency">Devise</string>
+    <string name="nd_calculator">Calculatrice</string>
+    <string name="nd_locator">Localisateur</string>
+    <string name="nd_tutorial">Didacticiel</string>
+    <string name="nd_share">Partager</string>
+    <string name="nd_settings">Paramètres</string>
+    <string name="nd_about">À propos</string>
+    <string name="nd_pay_bill">Payer Facture</string>
+    <string name="nd_standing_order"></string>
+    <string name="nd_beneficiary">Bénéficiaires</string>
+    <string name="title_activity_pay_bill"></string>
+
+    <string name="label_loanandfinanceaccounts">Financement</string>
+    <string name="label_termdepositaccounts">Dépôt à terme</string>
+    <string name="label_currentaccounts">Courant</string>
+    <string name="label_savingaccounts">Enregistrer</string>
+    <string name="label_cardaccounts">Cartes</string>
+    <string name="label_offbalanceaccounts">Non équilibrée</string>
+
+    <string name="menu_change_language">Changer de langue</string>
+    <string name="msg_share_using">Partagez en utilisant</string>
+
+    <array name="account_details_tabs_items">
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+    <string name="account_details_accountType">Type de compte</string>
+    <string name="account_details_currentBalance">Solde actuel</string>
+    <string name="account_details_holdAmount">Montant de blocage</string>
+    <string name="account_details_status">statut</string>
+    <string name="account_details_availableBalanceInPreferredCurrency">Solde disponible en Monnaie préférée</string>
+    <string name="account_details_dealAmount">Montant de la transaction</string>
+    <string name="account_details_outstandingAmount">Encours</string>
+    <string name="account_details_totalPaid">Total payé</string>
+    <string name="account_details_dueDate">Date d\'échéance</string>
+    <string name="account_details_maturityDate">Date d\'échéance</string>
+    <string name="account_details_availableBalanceInPreferedCurrency">Solde disponible en Monnaie préférée</string>
+    <string name="account_details_description">Description</string>
+    <string name="account_details_cardType">Type de carte</string>
+    <string name="account_details_outstandingBalance">Solde en cours</string>
+    <string name="account_details_cardLimit">Limite de la carte</string>
+    <string name="account_details_minPayDue">Paiement minmum du montant dû</string>
+    <string name="account_details_lastPaymentDate">Dernière date de paiement</string>
+    <string name="account_details_lastPaidAmount">Dernier montant payé</string>
+    <string name="account_details_cardStatus">État de la carte</string>
+    <string name="account_details_term">Terme</string>
+    <string name="account_details_interestRate">Taux d\'intérêt</string>
+    <string name="account_details_preferredCurrency">devise préférée</string>
+    <string name="account_details_availableBalance">Solde disponible</string>
+    <string name="account_details_dueBalance">Solde impayé</string>
+    <string name="account_details_lastPaymentAmount">Montant du paiement</string>
+    <string name="account_details_overDueAmount">montant impayé</string>
+
+    <string name="button_from">De</string>
+    <string name="button_to">À</string>
+    <string name="button_transfer_internal">Transfert interne</string>
+    <string name="label_daily_limit">Limite quotidienne</string>
+    <string name="label_transaction_limit">Limite de Transaction</string>
+    <string name="label_transaction_details">Détails de la transaction</string>
+    <string name="hint_amount">Montant</string>
+    <string name="hint_narration">Description</string>
+    <string name="button_transfer">Transfert</string>
+    <string name="button_continue"></string>
+    <string name="label_transaction_fees">Frais de transaction</string>
+    <string name="label_total_amount">Montant total</string>
+    <string name="button_confirm">Confirmer</string>
+    <string name="label_select_account">[Choisir un service]</string>
+    <string name="label_select_cycle">[Choisir un cycle]</string>
+    <string name="msg_login_canceled">Connexion Annulée</string>
+    <string name="msg_transfer_completed">Transfert Terminé \\nFaire un autre transfert?</string>
+
+    <string name="label_last_n_transactions">Dernière%1$d transaction</string>
+    <string name="label_from_to_transactions">De %1$s à %2$s</string>
+    <string name="btn_share_manual">Manuel</string>
+    <string name="btn_share_via_qr">Via QR</string>
+    <string name="label_no_more_details">Aucun autre détail disponibles</string>
+    <string name="title_activity_contact_center">Centre d\'appels</string>
+
+    <string name="label_phone_numbers">Numéros de téléphone</string>
+    <string name="label_email_address">Adresse e-mail</string>
+    <string name="label_website">Site Web</string>
+    <string name="label_rate">Taux</string>
+    <string name="label_share">Partager</string>
+    <string name="msg_url_not_available">Indisponible maintenant</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="title_activity_gis">Localisateur</string>
+    <string name="button_atms">DABs</string>
+    <string name="button_all">Tout</string>
+    <string name="button_branches">Agences</string>
+    <string name="menu_map_list">Carte / Liste</string>
+    <string name="msg_gis_not_available">Indisponible maintenant</string>
+
+    <array name="settings_items">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+    <array name="settings_items_no_finger">
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+    <string name="gis_address">Adresse</string>
+    <string name="gis_hasATM">Dispose d\'un DAB</string>
+    <string name="gis_phone">Téléphone</string>
+    <string name="gis_latitude">Latitude</string>
+    <string name="gis_name">Prénom</string>
+    <string name="gis_id">ID</string>
+    <string name="gis_workingHours">journée de travail</string>
+    <string name="gis_fax">Fax</string>
+    <string name="gis_longitude">Longitude</string>
+    <string name="gis_yes">Oui</string>
+    <string name="gis_no">Non</string>
+    <string name="title_activity_currency_converter">Convertisseur de divise</string>
+    <string name="title_activity_finance_calculator">Calculatrice de Financement</string>
+    <string name="msg_enter_beneficiary_added_sucessfully">Le bénéficiaire est ajouté avec succès.</string>
+    <array name="currency_converter_tabs_items">
+        <item></item>
+        <item></item>
+    </array>
+    <string name="label_select_currency">Choisir la devise</string>
+    <array name="finance_calculator_tabs_items">
+        <item></item>
+        <item></item>
+    </array>
+    <string name="label_select_Service">[Choisir un service]</string>
+    <string name="label_down_payment">Acompte</string>
+    <string name="label_net_finance">Financement net</string>
+    <string name="label_select_no_of_months">[Choisir le nombre des mois]</string>
+    <string name="label_profit_rate">Taux de bénéfice</string>
+    <string name="label_monthly_payment">Paiement mensuel</string>
+    <string name="label_profit">Bénéfice</string>
+    <string name="label_total_rapaid">Total remboursé</string>
+    <string name="button_calculate">Calculer</string>
+    <string name="button_request">Demande</string>
+    <string name="button_convert">Convertir</string>
+    <string name="label_buy_cash">Acheter en espèce</string>
+    <string name="label_sell_cash">Vente en espèce</string>
+    <string name="label_buy_draft">Acheter par traite</string>
+    <string name="label_sell_draft">Vente par traite</string>
+    <string name="title_activity_finance_calculator_details">Détatis de la calculatrice de financement</string>
+    <string name="label_service">Service</string>
+    <string name="label_no_of_months">Nombre des mois</string>
+    <string name="msg_need_to_login_to_request">Vous devez être connecté pour effectuer cette action</string>
+    <string name="msg_need_to_login_to_view">Vous devez être connecté pour voir ces informations</string>
+    <string name="msg_request_sent"></string>
+    <string name="button_update">Mise à jour</string>
+    <string name="msg_delete_confirmation">Etes-vous sûr de vouloir supprimer cet dispositif ?</string>
+    <string name="msg_delete_own_device_confirmation">Êtes-vous sûr de vouloir supprimer votre dispositif actuel? \\n(Cette action vous déconnectera)</string>
+    <string name="msg_item_deleted">L\'article est effacé</string>
+    <string name="msg_item_updates">L\'article est mis à jour</string>
+    <string name="button_register">Enregistrer</string>
+    <string name="label_device_name">Nom de dispositif</string>
+    <string name="label_device_id">Numéro du dispositif</string>
+    <string name="label_device_Model">Modèle de dispositif</string>
+    <string name="label_os_and_version">Système d\'exploitation et version</string>
+    <string name="msg_complete_all_data">Tous les champs sont obligatoires</string>
+    <string name="title_activity_devices_list">Dispositifs enrregistrés</string>
+    <string name="title_activity_beneficiary_list">Bénéficiaires</string>
+    <string name="title_activity_bill_list">Factures</string>
+    <string name="title_activity_add_bill">Ajouter une facture</string>
+
+    <string name="label_account">Compte</string>
+    <string name="label_select_beneficiary">[Choisir le bénéficiaire]</string>
+    <string name="label_narration">Récit</string>
+    <string name="label_month">Mois</string>
+
+    <string name="menu_label_right"></string>
+
+    <string name="msg_device_not_registered">Ce dispositif n\'est pas enregistré; voulez-vous l\'enregistrer maintenant?</string>
+    <string name="hint_user_id">Identifian de l\'utilisateur</string>
+    <string name="msg_from_date_exceed_to_date">Plage de dates incorrect</string>
+
+    <string name="msg_force_update">Il y a une nouvelle version, souhaitez-vous mettre à jour maintenant?</string>
+    <string name="button_exit">Sortie</string>
+
+    <string name="label_iban">Numéro IBAN</string>
+
+    <string name="msg_share_account">Numéro de compte: %1$s \\nNom de client: %2$s \\nNom de  la banque: %3$s \\nAgence: %4$s \\nSWIFT: %5$s \\nIBAN: %6$s</string>
+
+    <string name="msg_share_account_history">Compte: %1$s \\nDate: %2$s \\nMontant: %3$s \\nType: %4$s \\nCanal: %5$s \\nDéscription: %6$s</string>
+
+
+    <string name="error_share"></string>
+
+
+    <string name="msg_please_enter">Veuillez entrer %1$s</string>
+
+    <string name="msg_can_not_select_same_value">(%1$s) et (%2$s) ne peuvent pas être identiques</string>
+
+    <string name="label_account_number">Numéro de compte</string>
+    <string name="label_account_holder">Nom de bénéficiaire</string>
+    <string name="button_add">Ajouter</string>
+    <string name="label_accounts">Comptes</string>
+    <string name="msg_no_beneficiary_with_account_no">Aucun bénéficiaire n\'a été trouvé avec ce numéro de compte</string>
+    <string name="button_success">Réussi</string>
+    <string name="button_retry">Réessayer</string>
+    <string name="label_add_beneficiary">Ajouter un bénéficiaire</string>
+    <string name="label_register_device">Enregistrer le dispositif</string>
+    <string name="label_skip">Passer</string>
+    <string name="title_activity_tutorial_fade_animation">Didacticiel</string>
+
+    <string name="label_tutorial_1">Gérer votre compte \\nest maintenant FACILE</string>
+    <string name="label_tutorial_2">Trouver des agences et des DAB en un clin d\'œil</string>
+    <string name="label_tutorial_3">Transfert d\'argent \\njamais été plus rapide</string>
+    <string name="label_tutorial_4">Convertir des dévises \\nPlus facile</string>
+    <string name="label_tutorial_5">Demande de financement \\nà tout moment</string>
+
+    <string name="title_activity_change_password">Changer le mot de passe</string>
+    <string name="label_login_name">Identifiant de connexion</string>
+    <string name="label_atm_debit_card_number">DAB/Numéro de la carte de débit</string>
+    <string name="label_atm_debit_card_pin_number">DAB/Numéro de PIN de la carte de débit</string>
+    <string name="button_proceed">Continuer</string>
+    <string name="label_enter_answer_here">Entrer la réponce ici</string>
+    <string name="button_retrieve_password">Récupérer le mot de passe</string>
+    <string name="label_done">Terminé</string>
+    <string name="title_activity_forget_password">Mot de passe oublé</string>
+    <string name="label_login_password_change">Changer de mot de passe de connexion</string>
+    <string name="label_transaction_password_change">Changement du mot de passe de la transaction</string>
+    <string name="label_current_password">Mot de passe actuel</string>
+    <string name="label_new_password">Nouveau mot de passe</string>
+    <string name="label_retype_new_password">Saisir à nouveau le mot de passe</string>
+    <string name="button_change_password">Changer le mot de passe</string>
+    <string name="label_social_networks">Passer</string>
+    <string name="title_activity_about">À propos</string>
+    <string name="msg_must_be_positive">%1$s doit être supérieur à 0</string>
+    <string name="msg_values_must_be_the_same">Indisponible maintenant</string>
+    <string name="msg_password_changed_successfully">Mot de passe</string>
+    <string name="msg_force_change_password"></string>
+    <string name="button_yes">Oui</string>
+    <string name="button_no">Non</string>
+    <string name="label_enter_OTP">Entrer le code de vérification</string>
+    <string name="label_credit_amount">Montant de crédit</string>
+    <string name="label_debit_amount">Montant de débit</string>
+    <string name="title_activity_beneficiary_details">Détails de Bénéficiaire</string>
+    <string name="standingOrders"></string>
+    <string name="label_add_account_to_beneficiary">Ajouter un compte au bénéficiaire</string>
+    <string name="msg_enter_beneficiary_password">Entrer le mot de passe de la transaction</string>
+    <string name="msg_delete_last_account_in_beneficiary">Vous ne pouvez pas supprimer le dernier compte \\nSupprimer le bénéficiaire?</string>
+    <string name="msg_warning_delete_last_beneficiary">Attention: Vous allez supprimer le bénéficiaire</string>
+
+    <string name="msg_must_be_grater_than">%1$s doit être supérieur à %2$s</string>
+    <string name="msg_must_be_less_than">%1$s doit être supérieur à %2$s</string>
+    <string name="button_sort">Trier</string>
+    <string name="permission_rationale_read_phone_state">Autorisations étatiques de téléphone sont nécessaires pour fournir des données sur le téléphone.</string>
+
+    <array name="msg_regex">
+        <item></item>
+        <item>Ensure that the password contains at least 1 of the following special characters
+        </item>
+        <item></item>
+        <item>Ensure that the password contains at least 8 characters and no more than 30
+            characters
+        </item>
+        <item></item>
+    </array>
+    <string name="msg_transfer_add_benefeciary_options">Il n\'y a pas de bénéfciaire \\n Voulez-vous ajouter un bénéficiaire?</string>
+    <string name="msg_select_account_from">Veuillez choisir \"A partir du compte\"</string>
+    <string name="msg_select_account_to">Veuillez choisir \"Vers le compte\"</string>
+    <string name="msg_from_value">Veuillez choisir la valeur \"De\"</string>
+    <string name="msg_to_value">Veuillez choisir la valeur \"À\"</string>
+    <string name="msg_no_data">Il n\'y a pas de données disponibles</string>
+    <string name="msg_call_facility">Dispositif d\'appel indisponible!!!</string>
+    <string name="msg_added_successfully">L\'article ajouté avec succès</string>
+
+    <string name="label_between_own_accounts">Entre des comptes personnelles</string>
+    <string name="label_external_transfer">Transfert externe</string>
+    <string name="label_account_transfer">Transfert de compte</string>
+    <string name="label_credit_payment">Paiement par carte de crédit</string>
+    <string name="label_same_bank">Même banque</string>
+    <string name="label_local_bank">Banque locale</string>
+    <string name="label_international_bank">Baque internationale</string>
+
+    <string name="label_purpose">Objet</string>
+
+    <string name="label_paybill">Payer Facture</string>
+    <string name="label_bill_name">Nom de la facture</string>
+    <string name="label_beneficiaries">Bénéficiaires</string>
+    <string name="label_contact_center">Centre d\'appels</string>
+
+    <string name="label_pay_to">Payer vers</string>
+    <string name="label_select_vendor">[Choisir Fournisseur]</string>
+    <string name="label_paid_product">Produit Payé</string>
+    <string name="label_select_product">[Choisir un Produit]</string>
+    <string name="label_pay_from">Payer à partir</string>
+    <string name="label_your_total_bill_amount">Montant total de votre facture</string>
+    <string name="label_get_bill_amount">Obtenez le montant de la facture</string>
+    <string name="label_pay">Payer</string>
+    <string name="label_select_amount">[Choisir un Compte]</string>
+
+    <string name="label_bank_name">Nom de la banque</string>
+    <string name="label_select_branch">Choisir la branche</string>
+    <string name="label_select_bank">Choisir la banque</string>
+    <string name="label_select_country">Choisir le pays</string>
+    <string name="label_branch">Agences</string>
+    <string name="label_country">Pays</string>
+    <string name="label_currency"></string>
+
+    <string name="label_close"></string>
+
+    <string name="label_add_new_beneficiary">Nouveau bénéficiaire</string>
+    <string name="label_add_new_beneficiary_account">Nouveau compte du bénéficiaire</string>
+    <string name="amount_paid">Montant payé</string>
+    <string name="label_total_debit_amount">Montant total de débit</string>
+    <string name="msg_bill_completed">Facture payée \\n Enregistrer la Facture?</string>
+    <string name="button_save"></string>
+    <string name="button_skip"></string>
+    <string name="label_search_here">Rechercher ici</string>
+    <string name="msg_bill_saved_success">La facture a été enregistré avec succès.</string>
+    <string name="login_with_finger"></string>
+
+    <string name="msg_transfer_no_accounts_found">Il n\'y pas de comptes trouvés !</string>
+    <string name="msg_transfer_no_credit_accounts_found">Il n\'y a pas de comptes de crédit trouvés !</string>
+    <string name="msg_transfer_no_accounts_under_beneficiary_same">Il n\'y a pas de compte parmi les comptes de ce bénéficiaire dans la même banque \\nVoulez-vous ajouter un compte?</string>
+    <string name="msg_transfer_no_accounts_under_beneficiary_local">Il n\'y a pas de compte parmi les comptes de ce bénéficiaire dans la banque locale \\nVoulez-vous ajouter un compte?</string>
+    <string name="msg_transfer_no_accounts_under_beneficiary_international">Il n\'y a pas de compte parmi les comptes de ce bénéficiaire dans la banque internationale \\nVoulez-vous ajouter un compte?</string>
+
+    <string name="msg_rate"></string>
+    <string name="lbl_rate_now"></string>
+    <string name="lbl_rate_later"></string>
+    <string name="lbl_thanks"></string>
+
+    <string name="all_permissions_denied_feedback"></string>
+    <string name="permission_rationale_title"></string>
+    <string name="permission_rationale_message"></string>
+    <string name="permission_granted_feedback"></string>
+    <string name="permission_permanently_denied_feedback"></string>
+    <string name="permission_denied_feedback"></string>
+
+    <string name="label_select_account_type">Choisir le genre</string>
+    <string name="error_bill_saved_success"></string>
+    <string name="msg_invalid_value">Invalide %1$s</string>
+    <string name="title_activity_beneficiary_accounts_in_banks"></string>
+    <string name="error_register_finger"></string>
+    <string name="error_no_finger_installation"></string>
+    <string name="error_finger_time_out"></string>
+    <string name="error_finger_cancelled"></string>
+    <string name="error_finger_not_supported"></string>
+    <string name="lbl_enter_fingerprint">Veuillez ajouter votre empreinte digitale pour vous connecter</string>
+    <string name="lbl_token">Veuillez entrez la valeur de jeton.</string>
+    <string name="lbl_otp">Veuillez entrer le mot de passe une fois</string>
+    <string name="lbl_ed_token"></string>
+    <string name="lbl_login_password">Veuillez entrer votre mot de passe de connexion.</string>
+    <string name="msg_enter_ip_address"></string>
+    <string name="start"></string>
+    <string name="standingOrderDetailsTitle"></string>
+    <string name="addstandingOrder"></string>
+    <string name="button_recurring"></string>
+    <string name="due"></string>
+    <string name="executingFreq"></string>
+    <string name="effectiveFrom"></string>
+    <string name="numOfExecution"></string>
+    <string name="title_activity_standing_order_confirmation"></string>
+    <string name="lbl_own_accounts"></string>
+    <string name="recuringOptions"></string>
+    <string name="about_label_trademarks_copyright">Marques commerciales et droit d\'auteur</string>
+    <string name="button_share">Partager</string>
+    <string name="button_transfer_between_accounts">Transfert entre \\nles comptes personnels</string>
+    <string name="label_beneficiary_type">Type de bénéficiaire</string>
+    <string name="lbl_ed_otp"></string>
+    <string name="msg_can_not_more_than_value">(%1$s) ne peut pas être plus que (%2$s)</string>
+    <string name="navigation_drawer_close" translatable="false">Fermer la boite de navigation</string>
+    <string name="navigation_drawer_open" translatable="false">Ouvrir la boite de navigation</string>
+
+
+</resources>

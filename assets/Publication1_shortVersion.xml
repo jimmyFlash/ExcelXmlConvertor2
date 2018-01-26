@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Pesticides>
+    <Header>
+        <Creation_Date>19/10/2016 00:15</Creation_Date>
+    </Header>
+    <Substances>
+        <Name>1,1-dichloro-2,2-bis(4-ethylphenyl)ethane (F)</Name>
+        <entry_force>01/09/2008</entry_force>
+        <directive>Reg. (EC) No 149/2008</directive>
+        <Substances_ft>
+            <Footnotes_sub>(F) = Fat soluble</Footnotes_sub>
+        </Substances_ft>
+        <Product>
+            <Product_name>FRUITS, FRESH or FROZEN; TREE NUTS</Product_name>
+            <Product_code>0100000</Product_code>
+            <MRL>0.01*</MRL>
+            <ApplicationDate>01/09/2008</ApplicationDate>
+        </Product>
+        <Product>
+            <Product_name>Citrus fruits</Product_name>
+            <Product_code>0110000</Product_code>
+            <MRL>0.01*</MRL>
+            <ApplicationDate>01/09/2008</ApplicationDate>
+        </Product>
+        <Product>
+            <Product_name>Grapefruits (Natsudaidais, Shaddocks/pomelos, Sweeties/oroblancos, Tangelolos, Tangelos (except minneolas)/Ugli®, Other hybrids of Citrus paradisi, not elsewhere mentioned,)</Product_name>
+            <Product_code>0110010</Product_code>
+            <MRL>0.01*</MRL>
+            <ApplicationDate>01/09/2008</ApplicationDate>
+        </Product>
+    </Substances>
+</Pesticides> 

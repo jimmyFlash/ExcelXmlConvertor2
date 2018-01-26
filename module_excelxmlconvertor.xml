@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_excelxmlconvertor" default="compile.module.excelxmlconvertor">
+  <dirname property="module.excelxmlconvertor.basedir" file="${ant.file.module_excelxmlconvertor}"/>
+  
+  <property name="module.jdk.home.excelxmlconvertor" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.excelxmlconvertor" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.excelxmlconvertor" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.excelxmlconvertor" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="excelxmlconvertor.output.dir" value="${module.excelxmlconvertor.basedir}/out/production/ExcelXmlConvertor"/>
+  <property name="excelxmlconvertor.testoutput.dir" value="${module.excelxmlconvertor.basedir}/out/test/ExcelXmlConvertor"/>
+  
+  <path id="excelxmlconvertor.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="excelxmlconvertor.module.production.classpath">
+    <path refid="${module.jdk.classpath.excelxmlconvertor}"/>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/commons-collections4-4.1">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/poi-3.15">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/commons-collections4-4.0.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/org.apache.commons.io.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/xmlbeans-2.3.0.jar"/>
+  </path>
+  
+  <path id="excelxmlconvertor.runtime.production.module.classpath">
+    <pathelement location="${excelxmlconvertor.output.dir}"/>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/commons-collections4-4.1">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/poi-3.15">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/commons-collections4-4.0.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/org.apache.commons.io.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/xmlbeans-2.3.0.jar"/>
+  </path>
+  
+  <path id="excelxmlconvertor.module.classpath">
+    <path refid="${module.jdk.classpath.excelxmlconvertor}"/>
+    <pathelement location="${excelxmlconvertor.output.dir}"/>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/commons-collections4-4.1">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/poi-3.15">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/commons-collections4-4.0.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/org.apache.commons.io.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/xmlbeans-2.3.0.jar"/>
+  </path>
+  
+  <path id="excelxmlconvertor.runtime.module.classpath">
+    <pathelement location="${excelxmlconvertor.testoutput.dir}"/>
+    <pathelement location="${excelxmlconvertor.output.dir}"/>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/commons-collections4-4.1">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <fileset dir="${basedir}/../../../software/development/jarlibs/poi-3.15">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/commons-collections4-4.0.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/org.apache.commons.io.jar"/>
+    <pathelement location="${basedir}/../../../software/development/jarlibs/xmlbeans-2.3.0.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.excelxmlconvertor">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.excelxmlconvertor">
+    <patternset refid="excluded.from.module.excelxmlconvertor"/>
+  </patternset>
+  
+  <path id="excelxmlconvertor.module.sourcepath">
+    <dirset dir="${module.excelxmlconvertor.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.excelxmlconvertor" depends="compile.module.excelxmlconvertor.production,compile.module.excelxmlconvertor.tests" description="Compile module ExcelXmlConvertor"/>
+  
+  <target name="compile.module.excelxmlconvertor.production" depends="register.custom.compilers" description="Compile module ExcelXmlConvertor; production classes">
+    <mkdir dir="${excelxmlconvertor.output.dir}"/>
+    <javac2 destdir="${excelxmlconvertor.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.excelxmlconvertor}/javac">
+      <compilerarg line="${compiler.args.excelxmlconvertor}"/>
+      <bootclasspath refid="excelxmlconvertor.module.bootclasspath"/>
+      <classpath refid="excelxmlconvertor.module.production.classpath"/>
+      <src refid="excelxmlconvertor.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.excelxmlconvertor"/>
+    </javac2>
+    
+    <copy todir="${excelxmlconvertor.output.dir}">
+      <fileset dir="${module.excelxmlconvertor.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.excelxmlconvertor.tests" depends="register.custom.compilers,compile.module.excelxmlconvertor.production" description="compile module ExcelXmlConvertor; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.excelxmlconvertor" description="cleanup module">
+    <delete dir="${excelxmlconvertor.output.dir}"/>
+    <delete dir="${excelxmlconvertor.testoutput.dir}"/>
+  </target>
+</project>

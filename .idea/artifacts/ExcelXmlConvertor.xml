@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="ExcelXmlConvertor">
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="view.Main" />
+        <option name="convertCss2Bin" value="true" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="msi" />
+        <option name="title" value="Android Excel-xml convertor" />
+        <option name="vendor" value="ITS Mobile banking" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="ExcelXmlConvertor.jar">
+        <element id="module-output" name="ExcelXmlConvertor" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
