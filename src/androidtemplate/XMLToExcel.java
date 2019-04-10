@@ -270,7 +270,7 @@ public class XMLToExcel {
                 }
             }else if (type.equals(Constants.FILE_TYPE_STRINGS)) {
 
-                try (BufferedReader br = new BufferedReader(new FileReader(xmlFile))) {
+                try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(xmlFile), "UTF-8"))) {
                     int iLine = 0;
                     String line;
                     while ((line = br.readLine()) != null) {
